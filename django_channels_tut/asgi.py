@@ -13,4 +13,4 @@ from channels.routing import get_default_application
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_channels_tut.settings')
 django.setup()
-application = get_asgi_application()
+application = get_default_application()
